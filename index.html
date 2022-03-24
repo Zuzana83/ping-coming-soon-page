@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./main.css">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 2rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="coming-soon">
+    <div class="logo-wrapper">
+      <img src="./images/logo.svg" alt="ping logo" class="logo">
+    </div>
+    <h1 class="cs-title">We are launching <span class="bold">soon!</span></h1>
+    <p class="subtext">Subscribe and get notified</p>
+    <form id="form" class="form">
+      <div class="form-control">
+        <input type="text" class="form-input" id="email" placeholder="Your email address..">
+        <p class="error-text">Please provide a valid email address</p>
+      </div>
+      <button type="submit" class="submit-btn" id="submit-btn">Notify Me</button>
+    </form>
+    <img src="./images/illustration-dashboard.png" alt="dashboard vector" class="dashboard-img">
+    <div class="social-icons">
+      <a href="#" class="s-icon">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="s-icon">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="s-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <p class="legal">&copy; Copyright Ping. All rights reserved.</p>
+  </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">z83studio</a>.
+    </p>
+  </footer>
+
+  <!-- Modal -->
+  <aside class="modal-wrapper">
+    <article class="modal">
+      <h2 class="succes-notify">We let you know as soon as we launch.</h2>
+    </article>
+  </aside>
+
+  <script src="./app.js"></script>
+</body>
+</html>
